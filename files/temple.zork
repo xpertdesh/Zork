@@ -1,0 +1,172 @@
+Temple
+Zork III
+===
+Items:
+Rope
+5
+throw[Disappear]:The rope is flying in the air.
+tie[Score(15)]:You just tied the rope.
+cut[Drop]:The rope was cut in two pieces.
+---
+Sack
+10
+add[Wound(10)]:What do you want to add?
+cover[Score(5)]:Nice resource if it's cold
+---
+Ashes
+0
+collect:This could be useful in the future.
+---
+Diary
+25
+read[Score(25)]:You just read something that could your new clue.
+burn[Disappear,Transform(Ashes)]:The diary's ashes slowly travel through the room.
+open[Teleport]:Opening diary, careful.
+close[Teleport]:Closing diary, speechless huh.
+---
+BottledWater
+15
+drink[Score(15)]:Refreshing
+shake[Teleport,Score(9)]:Tired already!
+kick[Disappear]:The bottle broke.
+---
+Pizza
+30
+eat[Score(10)]:Control your diet
+cut[Wound(-5)]:Cutting a slice of pizza
+finish[Die]:Enough food for today
+---
+Flute
+8
+blow[Win]:A nice sound comes out of it.
+---
+WoodenSticks
+25
+burn[Wound(-10),Disappear]:You just made a nice little fire
+break:You made more wooden sticks
+---
+Ball
+20
+kick[Score(8)]:The ball bounces in the room
+juggle[Score(20)]:You have skills
+---
+Rooms:
+Pulpit
+You are in the entrance point of the temple, it's dark inside and very mysterious so you'll need to gather supplies in order to survive.
+---
+Sacristy
+Contents: Ball
+You entered the Sacristy, this is where special objects and clothes are kept safe. It is very cold in here and there's an old closet that smells bad.
+---
+Sanctuary
+Contents: Pizza,BottledWater
+This is the most holy part of the temple, this is where sacrifices take place. It is very clean and it looks like there's some food on the floor.
+---
+Cell
+Contents: Diary
+This is a small room with a bed. The nun usually sleeps here but she hasn't been seen ever since the tragedy occured. There is also a nightstand that has a diary.
+---
+Vault
+This is the underground room where people's bodies are buried. It is dead silent and all you can hear are your footsteps. The room is very dirty. It has spiderwebs and dust all over the room.
+---
+Apse
+Contents: Rope
+This is a curved area at one end of the temple. There appears to be a rope by the corner. There is a metal door that has a lock and you can hear some weird noises behind that door.
+---
+Crypt
+Contents: Sack
+This is a secret underground room that may have an exit to the woods, but be careful. There are human bones and skulls lying on the floor. There are rats moving around the room and there is also a dusty empty sack.
+---
+Solar
+This is a private room for small events. It has nice bed and there's a window where you can see the woods. A sudden breeze enters through the window making a spooky noise. It was used by the Lord's family to sleep.
+---
+Ministrel's Gallery
+Contents: Flure,WoodenSticks
+The room in the temple was intended for the Lord's musicians and situated on a raised gallery overlooking the center of the temple. There are wooden chairs and sticks on the floor. There is a flute among those sticks.
+---
+Buttery
+This room was intended for storing and dispensing beverages, especially ale. The person who presided here was the Butler. The Butler left a series of broken bottles on the floor. It seems this room has been abandoned.
+---
+===
+Exits:
+Pulpit
+e
+Cell
+---
+Cell
+e
+Sacristy
+---
+Sacristy
+w
+Cell
+---
+Cell
+w
+Pulpit
+---
+Pulpit
+w
+Sanctuary
+---
+Sanctuary
+e
+Pulpit
+---
+Pulpit
+s
+Vault
+---
+Vault
+n
+Pulpit
+---
+Apse
+e
+Vault
+---
+Vault
+w
+Apse
+---
+Crypt
+n
+Vault
+---
+Vault
+s
+Crypt
+---
+Solar
+w
+Vault
+---
+Vault
+e
+Solar
+---
+Buttery
+s
+Sacristy
+---
+Sacristy
+n
+Buttery
+---
+Buttery
+w
+Ministrel's Gallery
+---
+Ministrel's Gallery
+e
+Buttery
+---
+Ministrel's Gallery
+s
+Pulpit
+---
+Pulpit
+n
+Ministrel's Gallery
+---
+===

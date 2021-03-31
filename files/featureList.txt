@@ -1,0 +1,15 @@
+Unlock (+20) An exit is going to remain locked until some sort of key is used, triggering the exit to unlock.
+
+Theoretically, this can be tested by going into a room. Within the room will be an item with a vague message that goes along with it. The message should imply that the item is a key. As the player explores the dungeon, there will be a room that can't be opened. The player should then use their key to open the door. 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Light (+20) Certain rooms will be pitch black until a source of light is used. The light will run out at some point in which case the player must find another source.
+
+Theoretically, this can be tested by the player going into a room. The room will be pitch black, meaning that the player's character will be unable to do anything within the room until the darkness is remedied. Within the dungeon will be two lightsources. They can be used for the rooms cloaked in the darkness, however, the player must be careful as they both have a limited lifespan. 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Hunger (+10) The player will lose a set number of points per turn. When they run out of points, the die event is triggered, resulting in the game to end.
+
+Theoretically, this can be tested by the player simply going through the dungeon as normal. After a set period of time or action happens, a pre-determined amount of health will be taken away from the player's character as those cause the character to be hungry. This can be remedied by eating something within the dungeon, although the player is aware that there's only a certain amount of food. If the food runs out and they are also out of health, the character dies just like they would if they had been attacked. 

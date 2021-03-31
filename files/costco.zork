@@ -1,0 +1,179 @@
+Costco
+Zork III
+===
+Items:
+Soap,SoapBar
+25
+Wash: clean!
+Put back: For others to use.
+---
+Sample,freeStuff,food
+1000000
+Eat: free tastes best.
+Refill: wait.
+Make conversation: act as though you are very interested in where the sample can be found for purchase.
+---
+ForkLift,funRide
+24
+Ride: you crashed!
+WalkPast: a smart decision
+---
+cart,shoppingCart,buggie
+18
+Push: Here we go!
+HopIn: Who's driving this thing?
+FillHerUp: Foooooood.
+---
+Froyo,iceCream
+39508
+Lick: Yummy!!
+Toss: Time for more.
+---
+Cake
+4587654
+Smell: Chocolate!
+---
+PetFood,Purina
+59
+Lift: too heavy.
+Buy: add to cart.
+---
+Laptop,computer
+27
+Play: Mess with the laptop
+Ask: Ask an employee about the laptop
+---
+LooseBird,bird
+1
+TryCatch: you missed!
+Catch: You caught the bird!
+Duck: It just missed you!
+---
+Grapes
+883
+Steal: do not steal the grapes. "Try" one instead
+Add: Added to your cart.
+---
+===
+Rooms:
+Entrance
+Contents: cart
+You are at the entrance of Costco. Show your card and be immersed in a world of adventure.
+---
+Electronics
+Contents: Laptop
+You are surrounded by tvs a laptops galore. Make your way past without being roped into a discussion about 70 inch TVs.
+---
+Bathroom
+Contents: Soap
+This is a bathroom. You can catch a faint whiff of pizza from the Food Court. Wash your hands before and after trying samples!
+---
+Cash Register
+You are surrounded by a sea of registers. The person to your left is having difficulty with their card. Directly infront of you is the Food Court.
+---
+Food Court
+Contents: Froyo
+The skylight above casts a heavenly light upon a singular table. To your right are the restrooms.
+---
+Sample Cart
+Contents: samples
+You are standing in front of a cart with a mini microwave. A smiling individual offers you a free sample. They tell you all about their product.
+---
+Produce Room
+Contents: Grapes
+People rush for the only exit as you enter a world too cold for any mere mortal to stay in comfortably. The fresh asparagus will be worth it.
+---
+Meat Section
+Contents: LooseBird
+This is an aisle meant to be avoided. The eyes of the fish seem to follow you wherever you go. Creepy.
+---
+Bakery
+Contents: cake
+You enter a place home to warmth and sugar. You are content.
+---
+Pet Supplies
+Contents: PetFood, ForkLift
+You are surrounded by bags upon bags of pet food. You can see the flea medication in the distance. They're $10 per dose as opposed to the usual $20 at your vet.
+---
+Exit
+You've made to the end of your Costco experience. You survived. Although your wallet did not.
+---
+===
+Exits:
+Entrance
+u
+Electronics
+---
+Electronics
+d
+Entrance
+---
+Electronics
+u
+Bakery
+---
+Bakery
+d
+Electronics
+---
+Bakery
+u
+Meat Section
+---
+Bakery
+w
+Sample Cart
+---
+Sample Cart
+e
+Bakery
+---
+Sample Cart
+n
+Produce Room
+---
+Produce Room
+s
+Sample Cart
+---
+Sample Cart
+w
+Pet Supplies
+---
+Pet Supplies
+e
+Sample Cart
+---
+Pet Supplies
+w
+Register
+---
+Register
+e
+Pet Supplies
+---
+Register
+n
+Food Court
+---
+Food Court
+s
+Register
+---
+Food Court
+e
+Exit
+---
+Exit
+e
+Food Court
+---
+Food Court
+w
+Bathroom
+---
+Bathroom
+e
+Food Court
+---
+===

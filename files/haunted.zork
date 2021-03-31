@@ -1,0 +1,161 @@
+Haunted House
+Zork III
+===
+Items:
+amulet
+5
+wear:The amulet shimmer softly as it hangs around your neck.
+throw:You hear a voice call out, "I wouldn't do that if I were you!"
+hold:The amulet is much more beautiful than you originally thought.
+---
+witchesBroom
+10
+ride:You go flying around the room, don't you know how to steer this thing??
+sweep:"I refuse to be disrespected like this, I am no normal broom!"
+throw:As soon as the broom leaves your hand, it flies out of sight. It soons returns and smacks you in the face.
+---
+skull
+10
+touch:It feels oddly cold.
+hold:What are you, Hamlet or something? Put that down!
+throw:The skull clatters to the floor, losing its jaw.
+---
+cauldron
+25
+kick:*CLANG* Now your foot is in immense pain.
+sip:A bold move, considering you don't know what has been in that cauldron.
+---
+witchesHat
+10
+wear:This thing is huge! How do witches find this comfortable?
+throw:It wooshes gently to the floor.
+---
+gargoyle
+45
+stare:The gargoyle and you engage in a staring contest... I think we know who will win.
+touch:The gargolye is very cold to the touch *shiver*
+---
+apple
+5
+throw:The apple splatters on a nearby wall.
+eat:*cronch* mm tasty!
+juggle:Impressive! You can juggle one apple!
+---
+voodooDoll
+15
+hold:You feel a funny sensation as you hold the voodoo doll.
+poke:Ow! It felt like something poked you!
+---
+pumpkin
+10
+carve:You carve a funny looking Jack-O-Lantern!
+throw:*SPLAT*
+---
+===
+Rooms:
+Foyer
+Contents: pumpkin,gargoyle
+You are in a huge entry foyer room, with creepy pictures and decorations along the wall. Some of the decorations seem a bit strange. There is a staircase here.
+---
+Upstairs Hallway
+A dark, ominous hallway stretches out in front of you from north to south. It is chilly as there is a slight breeze coming from somewhere.
+---
+Master Bedroom
+Contents: voodooDoll,skull
+The master bedroom is equally as unnerving as the rest of the house, there is a dresser in the corner with some disturbing objects on it.
+---
+Closet
+Contents: witchesHat
+The door slams shut behind you. The lock clicks into place. You seem to be stuck.
+---
+Living Room
+Contents: witchesBroom
+You stand in a giant living room with couches and a giant rug. You hear a faint sweeping sound.
+---
+Kitchen
+Contents: cauldron,apple
+The kitchen matches the feel of the rest of the house, dark and spooky! In the corner you see... is that a cauldron??
+---
+Kitchen Closet
+This closet has all kinds of unmarked bottles and spices. A chill runs through you as you read one labeled "Bone dust."
+---
+Bathroom
+My goodness it stinks in here! Please hurry up!
+---
+Upstairs Bathroom
+This bathroom is surprisingly nice and upkept! You realize that maybe it's because there is someone in the house with you...
+---
+Basement
+It is terribly darking and you hear scary, disturbing noises. Go back up quickly!
+---
+===
+Exits:
+Foyer
+u
+Upstairs hallway
+---
+Upstairs hallway
+d
+Foyer
+---
+Foyer
+d
+Basement
+---
+Basement
+u
+Foyer
+---
+Foyer
+e
+Living Room
+---
+Living Room
+w
+Foyer
+---
+Living Room
+n
+Bathroom
+---
+Bathroom
+s
+Living Room
+---
+Living Room
+e
+Kitchen
+---
+Kitchen
+w
+Living Room
+---
+Kitchen
+s
+Kitchen Closet
+---
+Kitchen
+n
+Kitchen Closet
+---
+Upstairs Hallway
+n
+Master Bedroom
+---
+Master Bedroom
+s
+Upstairs Hallway
+---
+Master Bedroom
+w
+Upstairs Bathroom
+---
+Upstairs Bathroom
+e
+Master Bedroom
+---
+Master Bedroom
+n
+Closet
+---
+===
